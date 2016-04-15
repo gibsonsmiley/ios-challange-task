@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TaskChallenge/TaskTableViewCell.swift"
-            timestampString = "482448544.594978"
+            filePath = "TaskChallenge/DetailTableViewController.swift"
+            timestampString = "482449639.637516"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "completeButtonTapped(_:)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "saveButtonTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TaskChallenge/TaskTableViewCell.swift"
-            timestampString = "482448544.594978"
+            filePath = "TaskChallenge/DetailTableViewController.swift"
+            timestampString = "482449645.409502"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "updateWithTask(_:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "saveButtonTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

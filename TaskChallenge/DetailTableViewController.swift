@@ -43,7 +43,7 @@ class DetailTableViewController: UITableViewController {
     }
     
     @IBAction func saveButtonTapped(sender: AnyObject) {
-        if task != task {
+        if task == nil {
         if let name = nameTextField.text {
             let due = self.dueDate, notes = self.notesTextView.text
             TaskController.sharedController.addTask(name, complete: false, due: due, notes: notes)
