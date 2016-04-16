@@ -37,5 +37,6 @@ class TaskController {
     
     func taskCompletionChanged(task: Task, complete: Bool) {
         task.complete = complete
+        saveToPersistentStorage()
     }
 }

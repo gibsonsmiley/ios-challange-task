@@ -27,7 +27,7 @@ class TaskTableViewCell: UITableViewCell {
     @IBAction func completeButtonTapped(sender: AnyObject) {
         print("Complete button has been tapped")
         if let task = self.task {
-            delegate?.taskCompletion(self, complete: (task.complete.boolValue))
+            delegate?.taskCompletion(self, complete: (!task.complete.boolValue))
         }
     }
     

@@ -28,15 +28,8 @@ class ListTableViewController: UITableViewController, TaskTableViewCellDelegate 
     func taskCompletion(cell: TaskTableViewCell, complete: Bool) {
         if let indexPath = tableView.indexPathForCell(cell) {
         let task = TaskController.sharedController.tasks[indexPath.row]
-            if task.complete == true {
-                task.complete = false
-                TaskController.sharedController.saveToPersistentStorage()
-                tableView.reloadData()
-            } else {
-                task.complete = true
-                TaskController.sharedController.saveToPersistentStorage()
-                tableView.reloadData()
-            }
+            TaskController.sharedController.taskCompletionChanged(task, complete: complete)
+            tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
         }
     }
     
